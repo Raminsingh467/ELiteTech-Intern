@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do Web App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>My To-Do List</h1>
+    </header>
+    <main>
+        <section class="task-input">
+            <input type="text" id="taskInput" placeholder="Enter a new task" />
+            <button id="addTaskButton">Add Task</button>
+        </section>
+        <section>
+            <h2>Pending Tasks</h2>
+            <ul id="pendingTasks" class="task-list"></ul>
+        </section>
+        <section>
+            <h2>Completed Tasks</h2>
+            <ul id="completedTasks" class="task-list"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>Created By Ramin</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+// CSS
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+task-input {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#addTaskButton {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#addTaskButton:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    color: #007bff;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+}
+
+task-item button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+complete-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+complete-btn:hover {
+    background-color: #218838;
+}
+
+delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+delete-btn:hover {
+    background-color: #c82333;
+}
