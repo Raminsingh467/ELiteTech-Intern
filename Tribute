@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Dr. A.P.J. Abdul Kalam</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tribute to Dr. A.P.J. Abdul Kalam</h1>
+        <p>"Dream, Dream, Dream. Dreams transform into thoughts and thoughts result in action."</p>
+    </header>
+    <main>
+        <section>
+            <h2>About Dr. A.P.J. Abdul Kalam</h2>
+            <p>
+                Dr. Avul Pakir Jainulabdeen Abdul Kalam, affectionately known as the Missile Man of India, was an 
+                esteemed scientist and the 11th President of India. He was born on October 15, 1931, in Rameswaram, Tamil Nadu.
+                His journey from a humble background to becoming a key figure in India’s space and defense technology is truly inspirational.
+            </p>
+        </section>
+        <section>
+            <h2>Achievements</h2>
+            <ul>
+                <li>Developed India’s first Satellite Launch Vehicle (SLV-III).</li>
+                <li>Played a pivotal role in India’s nuclear tests at Pokhran-II in 1998.</li>
+                <li>Authored several books, including *Wings of Fire* and *Ignited Minds*.</li>
+                <li>Received numerous awards, including the Bharat Ratna, India’s highest civilian honor.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Gallery</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Dr._APJ_Abdul_Kalam_in_2008.jpg" 
+                 alt="Dr. A.P.J. Abdul Kalam" class="tribute-image">
+        </section>
+    </main>
+    <footer>
+        <p>Created with ❤️ By Ramin Singh in honor of Dr. A.P.J. Abdul Kalam</p>
+    </footer>
+</body>
+</html>
+
+//CSS
+
+header {
+    text-align: center;
+    background-color: #282c34;
+    color: #ffffff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-style: italic;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2a75b3;
+}
+
+p, ul {
+    margin: 10px 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.tribute-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #282c34;
+    color: #ffffff;
+    margin-top: 20px;
+}
+   
